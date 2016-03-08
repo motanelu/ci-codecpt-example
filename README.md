@@ -1,2 +1,2 @@
-# ci-codeception
-CI example using Codeception for the PHP Barcelona meetup
+# CI w/ Codeception
+Demo repository for the BCN PHP Meetup

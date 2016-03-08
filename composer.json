@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-0": {
+            "PhpBcn\\": "src/"
+        }
+    },
+    "require": {
+        "silex/silex": "^1.3",
+        "twig/twig": "^1.24",
+        "doctrine/orm": "~2.4",
+        "doctrine/data-fixtures": "~1.0",
+        "dflydev/doctrine-orm-service-provider": "~1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.1"
+    }
+}

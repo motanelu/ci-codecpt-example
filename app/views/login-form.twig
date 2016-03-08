@@ -1,0 +1,16 @@
+{% include 'partials/header.twig' %}
+<div class="container">
+    <h1>Log in here</h1>
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label for="name">Email address</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+{% include 'partials/footer.twig' %}
